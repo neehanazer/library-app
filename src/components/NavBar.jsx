@@ -12,7 +12,7 @@ const NavBar = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+       <div class="nav justify-content-end">
         <Link class="nav-link active" aria-current="page" to="/">Add Book</Link>
         <Link class="nav-link" to="/delete">Delete Book</Link>
         <Link class="nav-link" to="/search">Search Book</Link>
